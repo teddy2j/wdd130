@@ -1,17 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&family=Ysabeau:wght@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Knewave&display=swap');
 :root {
     --primary-color: #016FB9;
     --secondary-color: #E7F0FF;
     --accent1-color: #FFD447;
     --accent2-color: #786452;
 
-    --heading-font:'Martel', serif;
-    --paragraph-font:'Ysabeau', serif;
+    --heading-font:'Knewave';
+    --paragraph-font:'Chivo';
 
     --nav-background-color: #016FB9;
-    --nav-link-color: #E7F0FF;
+    --nav-link-color: #b8221d;
     --nav-hover-link-color: #FFD447;
     --nav-hover-background-color: #786452;
 
@@ -30,11 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--nav-background-color);
 }
 
-p {
-    padding: 25px;
+
+header img {
+    width: 20%;
 }
 
 nav {
@@ -45,16 +46,46 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: var(--primary-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);    
+    color: black;    
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
+    color: black;
     background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    
+    width: 100%;
+    height: auto;
+    padding-top: 450px;
+    background-color: var(--secondary-color);
+}
+
+ .hero h1 {
+    position: absolute;
+    top: 5px;
+ }
+
+
+.hero article {
+    position: absolute;
+    top: 70px;
+    padding-top: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 50%;
+    padding: 0%;
 }
