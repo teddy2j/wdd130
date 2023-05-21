@@ -5,60 +5,104 @@
   box-sizing: border-box;
 }
 
-footer {
-  font-family: 'Martel', serif;
-  font-weight: normal;
-      }
+nav {
+  background-color: #011e4b;
+  padding: 1rem;
+  display: flex;
+
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #faffbb; 
+  text-align: center;
+
+}
+
+header, footer, .grid {
+  max-width:840px;
+  margin:0 auto;
+}
+
+
+  .grid {
+    display: grid;
+    align-items: center;
+  }    
 
   main {
-    max-width: 840px;
+    
+    grid-column: 2/3;
+    margin: 1rem;
+    font-family: 'Martel';
+    text-align: justify;
+  }
+
+  
+  h1 {
+    border-bottom: 1px solid #011e4b;
+    font-family: 'Martel';
+    margin-bottom: 10px;
+    text-align: center;
   }
 
   main img {
+    padding: 5px;
+    width: 180px;
+    height: auto;
     float: right;
+    border: 3px solid #011e4b;
+    margin: 5px;
   }
 
   aside {
-
-    text-align: center;
-    width: 20em;
+    width: 20rem;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 
-  aside h2 {
-    position: absolute;
-    top: 5px;
-    left: 15px;
-  }
+
+
+
   aside img {
+    display: block;
     width: 200px;
     height: auto;
-    margin-top: 30px;
+    margin: 0 auto;
   }
 
-  main img {
-    width: 150px;
-    height: auto;
+  aside h2, aside p {
+    text-align: center;
+    margin: 10px;
   }
 
-  p {
-    padding: 0;
+  li a {
+    color:#faffbb;
+    font-size: smaller;
   }
 
-  footer, h1 {
+
+  footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     font-family: 'Martel', serif;
-    font-weight: normal;
+    text-align: center;
         }
 
 /* Class Selectors */
 
 
 .box {
-  margin: 1 rem;
+
   border: 1px solid rgba(0,0,0,.1);
-  padding: 1rem;
+  padding: 2rem;
   background-color: #011e4b;
-  color: #fbff00;
+  color: #faffbb;
+  font-size: larger;
 }
