@@ -24,6 +24,11 @@ nav a {
 
 }
 
+nav a:hover {
+  color: black;
+  background: white;
+}
+
 header, footer, .grid {
   max-width:840px;
   margin:0 auto;
@@ -87,6 +92,10 @@ header, footer, .grid {
     font-size: smaller;
   }
 
+  li a:hover {
+    color: black;
+    background: white;
+  }
 
   footer {
     margin-top: 1em;

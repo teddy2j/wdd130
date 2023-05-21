@@ -1,0 +1,166 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Knewave&display=swap');
+:root {
+    --primary-color: #016FB9;
+    --secondary-color: #E7F0FF;
+    --accent1-color: #FFD447;
+    --accent2-color: #786452;
+
+    --heading-font:'Knewave';
+    --paragraph-font:'Chivo';
+
+    --nav-background-color: #93E1D8;
+    --nav-link-color: #b8221d;
+    --nav-hover-link-color: #FFD447;
+    --nav-hover-background-color: #786452;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #0B1F3F;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    border: 2px solid #E73E2C;
+    margin: 0 0 20px 0;
+}
+
+
+header img {
+
+    width: 70%;
+    background-color: var(--nav-background-color);
+
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+    align-items: center;
+    font-size: larger;
+}
+
+nav a {
+    color: #0B1F3F;
+    font-size: larger;
+    font-weight: bolder;
+    font-stretch:wider;
+}
+
+
+nav a:hover {
+    color: black;
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    
+    width: 100%;
+    height: auto;
+    padding-top: 450px;
+    background-color: var(--secondary-color);
+}
+
+ .hero h1 {
+    position: absolute;
+    top: 5px;
+    left: 25%;
+ }
+
+
+.hero article {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.hero article img {
+    width: 40%;
+    padding: 0%;
+}
+
+.history {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 232, 196);
+    padding-bottom: 20px;
+    margin: 10px auto;
+
+  }
+
+.history h2 {
+    grid-column: 1/4;
+
+}
+
+.history img {
+    width: 80%;
+}
+
+.adventure {
+    width: 960px;
+    justify-content: space-around;
+    display: grid;
+    background-color: rgb(255, 232, 196);
+    align-items:baseline;
+
+}
+
+.adventure h2 {
+    grid-column: 1/6;
+    justify-self: center;
+
+}
+
+.adventure figure {
+    margin: 5px;
+    text-align: center;
+}
+
+.adventure figure img {
+    width: 100%;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+.sociallinks a img {
+    width: 50%;
+}
+
+footer {
+    margin: 10px auto;
+    padding-top: 2px;
+    text-align: center;
+    background-color: var(--nav-background-color);
+}
+
