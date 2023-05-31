@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Knewave&display=swap');
+:root {
+    --primary-color: #016FB9;
+    --secondary-color: #E7F0FF;
+    --accent1-color: #FFD447;
+    --accent2-color: #786452;
+
+    --heading-font:'Knewave';
+    --paragraph-font:'Chivo';
+
+    --nav-background-color: #93E1D8;
+    --nav-link-color: #b8221d;
+    --nav-hover-link-color: #FFD447;
+    --nav-hover-background-color: #786452;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #0B1F3F;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    border: 2px solid #E73E2C;
+    margin: 0 0 20px 0;
+}
+
+
+header img {
+
+    width: 70%;
+    background-color: var(--nav-background-color);
+
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+    align-items: center;
+    font-size: larger;
+}
+
+nav a {
+    color: #0B1F3F;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+nav a:hover {
+    color: black;
+    background-color: var(--nav-hover-background-color);
+}
+
+figure {
+    margin: 0
+}
+
+
+
+
+.sociallinks {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+.sociallinks a img {
+    width: 50%;
+}
+
+footer {
+    margin: 10px auto;
+    padding-top: 2px;
+    text-align: center;
+    background-color: var(--nav-background-color);
+}
+
+.employees {
+    display: flex;
+    width: 800px;
+}
+
+figure {
+    margin: 10px;
+
+}
+
+.grid {
+    display: grid;
+}
+
+.grid div {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #E73E2C;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+
+}
+

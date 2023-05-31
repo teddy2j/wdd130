@@ -73,8 +73,6 @@ header, footer, .grid {
   }
 
 
-
-
   aside img {
     display: block;
     width: 200px;
@@ -85,6 +83,7 @@ header, footer, .grid {
   aside h2, aside p {
     text-align: center;
     margin: 10px;
+    position: absolute
   }
 
   li a {
