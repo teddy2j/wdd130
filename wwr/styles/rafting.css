@@ -163,3 +163,15 @@ footer {
     background-color: var(--nav-background-color);
 }
 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    border: 1px solid #d1462e;
+    padding: 10px;
+  }
+  
